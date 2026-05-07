@@ -1,11 +1,11 @@
-AlNasr SmartAssistant
+# 🏗️ AlNasr SmartAssistant
 
-An intelligent AI-powered document and knowledge assistant designed for enterprise-level search, question answering, and document understanding.  
-AlNasr SmartAssistant transforms your documents into a smart, searchable knowledge system using advanced Retrieval-Augmented Generation (RAG) techniques.
+An intelligent AI-powered document and knowledge assistant designed for **enterprise-level search, question answering, and document understanding**.  
+AlNasr SmartAssistant transforms your documents into a **smart, searchable knowledge system** using advanced Retrieval-Augmented Generation (RAG) techniques.
 
 ---
 
-🚀 Key Features
+## 🚀 Key Features
 
 - 🔍 **Smart Semantic Search** across documents  
 - 🧠 **AI-powered Question Answering (RAG System)**  
@@ -18,34 +18,34 @@ AlNasr SmartAssistant transforms your documents into a smart, searchable knowled
 
 ---
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
 AlNasr SmartAssistant uses a multi-layer intelligence pipeline:
 
-1. 📥 Document Ingestion
+1. 📥 **Document Ingestion**
    - Upload and parse documents (PDF, DOCX, PPT, TXT)
 
-2. ✂️ Text Chunking
+2. ✂️ **Text Chunking**
    - Splits documents into meaningful semantic segments
 
-3. 🔢 Embedding Generation
+3. 🔢 **Embedding Generation**
    - Converts text into dense vector representations
 
-4. 🔎 Hybrid Retrieval
+4. 🔎 **Hybrid Retrieval**
    - BM25 keyword-based search  
    - FAISS vector similarity search  
 
-5. 🎯 Reranking Layer
+5. 🎯 **Reranking Layer**
    - Improves relevance of retrieved results  
 
-6. 🤖 LLM Answer Generation
+6. 🤖 **LLM Answer Generation**
    - Produces final context-aware responses  
 
 ---
 
- 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-- Python   
+- Python 🐍  
 - Streamlit 🎨  
 - FAISS (Vector Database)  
 - BM25 (Keyword Search)  
@@ -55,8 +55,10 @@ AlNasr SmartAssistant uses a multi-layer intelligence pipeline:
 
 ---
 
-📂 Project Structure
- AlNasr-SmartAssistant
+## 📂 Project Structure
+
+
+📁 AlNasr-SmartAssistant
 ├── app.py
 ├── chatbot.py
 ├── utils/
@@ -70,9 +72,10 @@ AlNasr SmartAssistant uses a multi-layer intelligence pipeline:
 ├── requirements.txt
 └── README.md
 
+
 ---
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 ```bash
 # Clone repository
@@ -86,7 +89,6 @@ pip install -r requirements.txt
 
 # Run the application
 streamlit run app.py
-
 🧠 How It Works
 Upload your company or personal documents
 System processes and indexes all content
